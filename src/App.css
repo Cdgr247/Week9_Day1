@@ -1,0 +1,23 @@
+
+.app {
+  background-color: blue;
+  color: aliceblue;
+}
+
+.main-heading{
+color: hotpink;
+}
+
+.sidebar {
+  width: 120px;
+  margin: 5px;
+  position: sticky;
+  top: 62px;
+  align-self: flex-start;
+  align-items: start;
+}
+
+.main-heading {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
