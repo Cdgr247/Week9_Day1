@@ -6,18 +6,8 @@ import LoginPage from './pages/LoginPage'
 import RegisterPage from './pages/RegisterPage'
 import SingleUserPage from './pages/SingleUserPage'
 import UsersPage from './pages/UsersPage'
-import Counter from './components/counter';
 
-class App extends Component {
-  render() {
-    return (
-        <div className="App">
-        <Counter/>
-        </div>
-  )}
-}
-
-{/* export default function App() {
+export default function App() {
 
   return (
     <Container fluid className='app'>
@@ -27,9 +17,3 @@ class App extends Component {
   )
 
 }
-
-class App extends Component {
-  render() {
-    return (
-        <div className="App">
-        <Counter/> */}
